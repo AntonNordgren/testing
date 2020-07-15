@@ -52,7 +52,7 @@ class HomePage extends React.Component {
             </div>
             <div className="col-sm-7" style={customRight}>
 
-              <Carousel style={customCarousel} indicators={false} controls={false} interval={4000}>
+              <Carousel style={customCarousel} indicators={false} controls={false} interval={1000}>
                 <Carousel.Item style={carouselItem}>
                   <img
                     className="d-block v-50"
